@@ -1,27 +1,63 @@
 *{
     margin:0;
     padding: 0;
+    
 }
-
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 100vh;
+}
+.container2{
+  
     max-width: 300px;
     height: 300px;
     padding: 20px;
-    border: 2px solid black;
-    background:linear-gradient(to top, rgb(25, 164, 215),rgb(96, 234, 202));
+    border: 5px solid gainsboro;
+    background:rgb(238, 237, 237);
     border-radius: 15px;
-
-
+ 
 }
-button{
+.image{
+   height: 100px;
+   position: relative;
+   left: 90px;
+}
+
+#entrar{
     position: relative;
-    top: 30px;
-    right: 170px;
-}
-input{
-    margin-top: 5px;
+    top: 50px;
+    right: -40px;
     padding: 5px;
-    border-radius: 10px;
+    width: 95px;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
+#cadastro{
+    position: relative;
+    top: 50px;
+    left:55px;
+    padding: 5px;
+    width: 95px;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}   
+      
+input{
+    width: 75%;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 3px solid blueviolet;
 }
 #resultado{
     position: relative;
